@@ -1,5 +1,5 @@
 #!/bin/bash
-sed -i '' \
+sed -i \
     -e 's/^\[url\] - \[code-...\] - //' \
     -e 's/^\[subdomains\] - //' \
     -e 's/^\[robots\] - //' \
