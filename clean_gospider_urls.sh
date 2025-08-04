@@ -2,6 +2,7 @@
 sed -i '' \
     -e 's/^\[url\] - \[code-200\] - //' \
     -e 's/^\[subdomains\] - //' \
+    -e 's/^\[robots\] - //' \
     -e 's/^\[href\] - //' \
     -e 's/^\[javascript\] - //' \
     -e 's/^\[form\] - //' \
