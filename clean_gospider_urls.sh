@@ -1,6 +1,6 @@
 #!/bin/bash
 sed -i '' \
-    -e 's/^\[url\] - \[code-200\] - //' \
+    -e 's/^\[url\] - \[code-...\] - //' \
     -e 's/^\[subdomains\] - //' \
     -e 's/^\[robots\] - //' \
     -e 's/^\[href\] - //' \
